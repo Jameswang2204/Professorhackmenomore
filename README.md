@@ -2,14 +2,10 @@
 
 An AI-powered, web-based cybersecurity awareness chatbot prototype.
 
----
-
-## 🚀 Quickstart
-
-These instructions assume you have **Node.js (v14+)** installed.
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/<your-username>/professor-hackmenomore.git
-cd professor-hackmenomore
+1. Clone the repo  
+2. Copy `.env.example` to `.env`  
+3. If you have an OpenAI key, paste it into `.env` and set `MOCK_MODE=false`  
+   Otherwise, leave `MOCK_MODE=true` to run entirely locally  
+4. `npm install`  
+5. `node server.js`  
+6. Open `index.html` in your browser
