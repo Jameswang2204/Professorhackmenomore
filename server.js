@@ -21,7 +21,7 @@ app.post('/api/chat', async (req, res) => {
     }
 
     const completion = await openai.chat.completions.create({
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-4o',
       messages: [
         { role: 'system', content: 'You are Professor Hackmenomore, a friendly cybersecurity tutor.' },
         { role: 'user',   content: userMessage }
